@@ -1,6 +1,6 @@
 # DB Log Writer Component - Mendo Framework
 
-``Mendo\Logger\Writer\DbLogWriter``` writes log information to a database.
+```Mendo\Logger\Writer\DbLogWriter``` writes log information to a database.
 
 ## Usage
 
