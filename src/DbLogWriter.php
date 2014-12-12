@@ -15,6 +15,8 @@ use Psr\Log\AbstractLogger;
 use \PDO;
 
 /**
+ * Writes log information to a database.
+ *
  * @author Mathieu Decaffmeyer <mdecaffmeyer@gmail.com>
  */
 class DbLogWriter extends AbstractLogger
@@ -26,8 +28,6 @@ class DbLogWriter extends AbstractLogger
     private $dataProviders = [];
 
     /**
-     * Writes log information to a database.
-     *
      * @param PDO           $pdo
      * @param TableMetaData $table
      */
@@ -38,7 +38,7 @@ class DbLogWriter extends AbstractLogger
     }
 
     /**
-     * @param string $role
+     * @param string $level
      * @param string $message
      * @param array  $context
      */
