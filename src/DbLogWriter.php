@@ -12,7 +12,7 @@
 namespace Gobline\Logger\Writer;
 
 use Psr\Log\AbstractLogger;
-use \PDO;
+use PDO;
 
 /**
  * Writes log information to a database.
