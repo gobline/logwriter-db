@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Mendo Framework
+ * Gobline
  *
  * (c) Mathieu Decaffmeyer <mdecaffmeyer@gmail.com>
  *
@@ -9,8 +9,8 @@
  * file that was distributed with this source code.
  */
 
-use Mendo\Logger\Writer\DbLogWriter;
-use Mendo\Logger\Writer\TableMetadata;
+use Gobline\Logger\Writer\DbLogWriter;
+use Gobline\Logger\Writer\TableMetadata;
 use \PDO;
 
 /**

@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Mendo Framework
+ * Gobline
  *
  * (c) Mathieu Decaffmeyer <mdecaffmeyer@gmail.com>
  *
@@ -10,7 +10,7 @@
  */
 
 use Pimple\Container;
-use Mendo\Logger\Writer\Provider\Pimple\DbLogWriterServiceProvider;
+use Gobline\Logger\Writer\Provider\Pimple\DbLogWriterServiceProvider;
 
 /**
  * @author Mathieu Decaffmeyer <mdecaffmeyer@gmail.com>
@@ -33,6 +33,6 @@ class ServiceProviderTest extends PHPUnit_Framework_TestCase
         $container->register(new DbLogWriterServiceProvider());
         $container['logwriter.db.pdo'] = 'pdo';
 
-        $this->assertInstanceOf('Mendo\Logger\Writer\DbLogWriter', $container['logwriter.db']);
+        $this->assertInstanceOf('Gobline\Logger\Writer\DbLogWriter', $container['logwriter.db']);
     }
 }
