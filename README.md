@@ -1,4 +1,4 @@
-# DB Log Writer Component
+# DB Log Writer component
 
 ```Gobline\Logger\Writer\DbLogWriter``` writes log information to a database.
 
@@ -19,7 +19,7 @@ $writer->info('hello world');
 
 ## Installation
 
-You can install Gobline DB Log Writer using the dependency management tool [Composer](https://getcomposer.org/).
+You can install the DB Log Writer component using the dependency management tool [Composer](https://getcomposer.org/).
 Run the *require* command to resolve and download the dependencies:
 
 ```
